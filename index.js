@@ -185,7 +185,7 @@ module.exports = function () {
   };
 
   // Search for installed dalek by using node's built-in require() logic.
-  var child = spawn(process.execPath, ['-p', '-e', 'require.resolve("dalekjs")']);
+  var child = spawn(process.execPath, ['-p', '-e', 'require.resolve("dalekjs-early")']);
   var dalekpath = '';
   child.stdout.on('data', function (data) {
     dalekpath += data;

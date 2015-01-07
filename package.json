@@ -1,11 +1,11 @@
 {
-  "name": "dalek-cli",
+  "name": "dalek-cli-early",
   "version": "0.0.5",
-  "description": "DalekJS Command line interface",
+  "description": "DalekJS Command line interface. Early release",
   "main": "./bin/cmd.js",
   "preferGlobal": true,
   "bin": {
-    "dalek": "./bin/cmd.js"
+    "dalek-early": "./bin/cmd.js"
   },
   "directories": {
     "test": "test"
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/dalekjs/dalek-cli.git"
+    "url": "http://github.com/gskachkov/dalek-cli.git"
   },
   "bugs": {
     "url": "https://github.com/dalekjs/dalek-cli/issues"
